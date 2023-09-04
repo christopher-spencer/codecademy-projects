@@ -1,0 +1,56 @@
+.Header {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url(/Users/christopherspencer/Documents/DevProject/Dasmotos/resources/image1.jpeg);
+    text-align: center;
+}
+
+.Brushes {
+    font-family: Helvetica;
+}
+
+.Brushes h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+.Brushes span {
+    font-weight: bold;
+    color: blue;
+}
+
+.Frames h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: lightcoral;
+}
+
+.Frames {
+    font-family: Helvetica;
+}
+
+.Frames span {
+    font-weight: bold;
+    color:blue;
+}
+
+.Paint h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: skyblue;
+}
+
+.Paint {
+    font-family: Helvetica;
+}
+
+.Paint span {
+    font-weight: bold;
+    color: blue;
+}
