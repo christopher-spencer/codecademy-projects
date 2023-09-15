@@ -1,0 +1,11 @@
+<!-- _Links.cshtml -->
+@model string
+
+@if(ViewData["Title"] == "Home")
+{
+<a href="http://www.linkedin.com/@Model">LinkedIn profile</a>
+}
+else if ( ViewData["Title"] == "Projects" )
+{
+<a href="http://www.github.com/@Model">Github profile</a>
+}

@@ -1,0 +1,38 @@
+@page
+<!-- Projects.cshtml -->
+@model ProjectsModel
+
+@{
+  ViewData["Title"] = "Projects";
+}
+
+<div class="jumbotron jumbotron-fluid jumbotron-container text-white project-jumbotron">
+	<div class="container-fluid jumbotron-content">
+		<p class="text-center mb-4 jumbotron-header">Projects</p>
+	</div>
+</div>
+
+<div class="container">
+		<div class="project-container">
+      @foreach(string project in @Model.Projects) {
+        if (@project.Year > 2017) {
+			<h4 class="project-title general-header">
+        @project.Title
+      </h4>
+			<p class="project-year general-header">
+        @project.Description
+      </p>
+			<p class="project-description general-content">
+        @project.Year
+      </p>
+        }
+      }
+		</div>
+  
+  <br>
+	<h4 class="general-header">Portfolio</h4>
+	<p class="general-content">
+     For more information regarding my projects, please refer to my <partial name="_Links" for="@Model.GithubUsername"/>
+	</p>
+	<br>
+</div>
