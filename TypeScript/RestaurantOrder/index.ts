@@ -30,7 +30,6 @@ function printOrders(restaurants: Restaurant[], orders: Order[][]) {
    if (orders[index].length > 0) {
        console.log(restaurant.name);
 
-
        orders[index].forEach((order) => {
          console.log(`- ${order.name}: ${order.price}`);
        });
