@@ -1,5 +1,5 @@
-import { restaurants, Restaurant } from "./restaurants.ts";
-import { orders, Order, PriceBracket } from "./orders.ts";
+import { restaurants, Restaurant } from "./restaurants";
+import { orders, Order, PriceBracket } from "./orders";
 
 
 // Add your getMaxPrice() function below:

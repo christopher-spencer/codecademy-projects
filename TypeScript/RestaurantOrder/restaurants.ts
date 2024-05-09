@@ -1,4 +1,4 @@
-import { PriceBracket } from "./orders.ts";
+import { PriceBracket } from "./orders";
 
 export const restaurants = [
  {
