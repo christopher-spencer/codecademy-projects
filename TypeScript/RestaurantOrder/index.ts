@@ -2,7 +2,6 @@ import { restaurants, Restaurant } from "./restaurants";
 import { orders, Order, PriceBracket } from "./orders";
 
 
-// Add your getMaxPrice() function below:
 function getMaxPrice(price: PriceBracket) {
  switch (price) {
    case PriceBracket.Low:
@@ -13,7 +12,7 @@ function getMaxPrice(price: PriceBracket) {
      return 30.0;
  }
 }
-// Add your getOrders() function below:
+
 function getOrders(price: PriceBracket, orders: Order[][]) {
    let filteredOrders: Order[][] = [];
 
@@ -24,7 +23,7 @@ function getOrders(price: PriceBracket, orders: Order[][]) {
    });
    return filteredOrders;
 }
-// Add your printOrders() function below:
+
 function printOrders(restaurants: Restaurant[], orders: Order[][]) {
  restaurants.forEach((restaurant: Restaurant, index: number) => {
   
